@@ -47,6 +47,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Application/app_freertos_task.c
     common/com_debug/com_debug.c
+    BSP/Drivers/pwr_mgmt.c
     FreeRTOS/portable/cotex_m3/port.c
     FreeRTOS/portable/memory/heap_4.c
     FreeRTOS/source/croutine.c
@@ -62,6 +63,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     Application
+    BSP/Drivers
     common/com_debug
     FreeRTOS/include
     FreeRTOS/portable/cotex_m3

@@ -1,3 +1,2 @@
-F:/Quadrotor_drone/Drone_controller/Application/app_freertos_task.c:12:6:vTask1	16	static
-F:/Quadrotor_drone/Drone_controller/Application/app_freertos_task.c:20:6:vTask2	16	static
-F:/Quadrotor_drone/Drone_controller/Application/app_freertos_task.c:29:6:APP_task_start	16	static
+F:/Quadrotor_drone/Drone_controller/Application/app_freertos_task.c:11:6:vPWR_Task	24	static
+F:/Quadrotor_drone/Drone_controller/Application/app_freertos_task.c:23:6:APP_task_start	16	static

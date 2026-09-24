@@ -793,8 +793,6 @@ Discarded input sections
                 0x00000000      0x17c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_ReadPin
                 0x00000000       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .text.HAL_GPIO_WritePin
-                0x00000000       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_TogglePin
                 0x00000000       0x32 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
@@ -1577,6 +1575,7 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
@@ -1650,6 +1649,7 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .text          0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
@@ -1688,6 +1688,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
@@ -1763,6 +1765,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
@@ -1845,6 +1849,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -1918,6 +1924,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
@@ -2173,6 +2180,99 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
  .debug_macro   0x00000000      0x170 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
  .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0xade CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x215 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0xbd CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0xd23 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000     0xe09e CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000     0x34a2 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x5bc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x289 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x1cb CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x114 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x1b2 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x27 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x136 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x1bc CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x87 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x240 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0xa6 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x15a CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0xe3 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0x12 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x581 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000       0xc3 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00000000      0x120 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .group         0x00000000        0xc CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
@@ -2264,6 +2364,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_macro   0x00000000      0x28e CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_macro   0x00000000       0x7b CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_macro   0x00000000       0x24 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_macro   0x00000000       0x3c CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
@@ -3322,8 +3423,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.vTaskDelete
                 0x00000000      0x108 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .text.xTaskDelayUntil
-                0x00000000       0xa4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.uxTaskPriorityGet
                 0x00000000       0x38 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.uxTaskPriorityGetFromISR
@@ -3340,8 +3439,6 @@ Discarded input sections
                 0x00000000      0x11c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.vTaskEndScheduler
                 0x00000000       0x30 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .text.xTaskGetTickCount
-                0x00000000       0x1c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.xTaskGetTickCountFromISR
                 0x00000000       0x20 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.uxTaskGetNumberOfTasks
@@ -3922,6 +4019,7 @@ LOAD CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
 LOAD CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
 LOAD CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+LOAD CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
 LOAD CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
 LOAD CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
 LOAD CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
@@ -3956,7 +4054,7 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x08000110     0x5be0
+.text           0x08000110     0x5d20
                 0x08000110                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000110       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
@@ -4066,576 +4164,589 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
  .text.HAL_GPIO_Init
                 0x08001854      0x2dc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                 0x08001854                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x08001b30       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001b30                HAL_GPIO_WritePin
  .text.__NVIC_SetPriorityGrouping
-                0x08001b30       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001b60       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x08001b78       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001ba8       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08001b94       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001bc4       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08001be8       0x6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- *fill*         0x08001c56        0x2 
+                0x08001c18       0x6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ *fill*         0x08001c86        0x2 
  .text.SysTick_Config
-                0x08001c58       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001c88       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001c9c       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001c9c                HAL_NVIC_SetPriorityGrouping
+                0x08001ccc       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001ccc                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001cb2       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001cb2                HAL_NVIC_SetPriority
+                0x08001ce2       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001ce2                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08001cea       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001cea                HAL_SYSTICK_Config
- *fill*         0x08001d02        0x2 
- .text.main     0x08001d04       0x38 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
-                0x08001d04                main
+                0x08001d1a       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001d1a                HAL_SYSTICK_Config
+ *fill*         0x08001d32        0x2 
+ .text.main     0x08001d34       0x38 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+                0x08001d34                main
  .text.SystemClock_Config
-                0x08001d3c       0x8a CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
-                0x08001d3c                SystemClock_Config
+                0x08001d6c       0x8a CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+                0x08001d6c                SystemClock_Config
  .text.Error_Handler
-                0x08001dc6        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
-                0x08001dc6                Error_Handler
- *fill*         0x08001dd2        0x2 
+                0x08001df6        0xc CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+                0x08001df6                Error_Handler
+ *fill*         0x08001e02        0x2 
  .text.MX_GPIO_Init
-                0x08001dd4       0x5c CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
-                0x08001dd4                MX_GPIO_Init
+                0x08001e04       0xb0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+                0x08001e04                MX_GPIO_Init
  .text.MX_USART1_UART_Init
-                0x08001e30       0x54 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
-                0x08001e30                MX_USART1_UART_Init
+                0x08001eb4       0x54 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+                0x08001eb4                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08001e84       0x98 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
-                0x08001e84                HAL_UART_MspInit
+                0x08001f08       0x98 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+                0x08001f08                HAL_UART_MspInit
  .text.NMI_Handler
-                0x08001f1c        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f1c                NMI_Handler
+                0x08001fa0        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fa0                NMI_Handler
  .text.HardFault_Handler
-                0x08001f24        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f24                HardFault_Handler
+                0x08001fa8        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fa8                HardFault_Handler
  .text.MemManage_Handler
-                0x08001f2c        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f2c                MemManage_Handler
+                0x08001fb0        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fb0                MemManage_Handler
  .text.BusFault_Handler
-                0x08001f34        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f34                BusFault_Handler
+                0x08001fb8        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fb8                BusFault_Handler
  .text.UsageFault_Handler
-                0x08001f3c        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f3c                UsageFault_Handler
+                0x08001fc0        0x8 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fc0                UsageFault_Handler
  .text.DebugMon_Handler
-                0x08001f44        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f44                DebugMon_Handler
+                0x08001fc8        0xc CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fc8                DebugMon_Handler
  .text.SysTick_Handler
-                0x08001f50       0x1a CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001f50                SysTick_Handler
- *fill*         0x08001f6a        0x2 
+                0x08001fd4       0x1a CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001fd4                SysTick_Handler
+ *fill*         0x08001fee        0x2 
  .text.HAL_MspInit
-                0x08001f6c       0x64 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08001f6c                HAL_MspInit
- .text._sbrk    0x08001fd0       0x6c CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
-                0x08001fd0                _sbrk
- .text._getpid  0x0800203c        0xe CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x0800203c                _getpid
- .text._kill    0x0800204a       0x20 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x0800204a                _kill
- .text._exit    0x0800206a       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x0800206a                _exit
- .text._read    0x08002080       0x3a CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x08002080                _read
- .text._write   0x080020ba       0x38 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x080020ba                _write
- .text._close   0x080020f2       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x080020f2                _close
- .text._fstat   0x08002108       0x1e CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x08002108                _fstat
- .text._isatty  0x08002126       0x14 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x08002126                _isatty
- .text._lseek   0x0800213a       0x18 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
-                0x0800213a                _lseek
- *fill*         0x08002152        0x2 
+                0x08001ff0       0x64 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001ff0                HAL_MspInit
+ .text._sbrk    0x08002054       0x6c CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+                0x08002054                _sbrk
+ .text._getpid  0x080020c0        0xe CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x080020c0                _getpid
+ .text._kill    0x080020ce       0x20 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x080020ce                _kill
+ .text._exit    0x080020ee       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x080020ee                _exit
+ .text._read    0x08002104       0x3a CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x08002104                _read
+ .text._write   0x0800213e       0x38 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x0800213e                _write
+ .text._close   0x08002176       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x08002176                _close
+ .text._fstat   0x0800218c       0x1e CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x0800218c                _fstat
+ .text._isatty  0x080021aa       0x14 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x080021aa                _isatty
+ .text._lseek   0x080021be       0x18 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x080021be                _lseek
+ *fill*         0x080021d6        0x2 
  .text.Reset_Handler
-                0x08002154       0x48 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
-                0x08002154                Reset_Handler
+                0x080021d8       0x48 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+                0x080021d8                Reset_Handler
  .text.Default_Handler
-                0x0800219c        0x2 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
-                0x0800219c                RTC_Alarm_IRQHandler
-                0x0800219c                EXTI2_IRQHandler
-                0x0800219c                TIM1_CC_IRQHandler
-                0x0800219c                PVD_IRQHandler
-                0x0800219c                EXTI3_IRQHandler
-                0x0800219c                EXTI0_IRQHandler
-                0x0800219c                I2C2_EV_IRQHandler
-                0x0800219c                ADC1_2_IRQHandler
-                0x0800219c                SPI1_IRQHandler
-                0x0800219c                TAMPER_IRQHandler
-                0x0800219c                DMA1_Channel4_IRQHandler
-                0x0800219c                USART3_IRQHandler
-                0x0800219c                RTC_IRQHandler
-                0x0800219c                DMA1_Channel7_IRQHandler
-                0x0800219c                CAN1_RX1_IRQHandler
-                0x0800219c                TIM4_IRQHandler
-                0x0800219c                I2C1_EV_IRQHandler
-                0x0800219c                DMA1_Channel6_IRQHandler
-                0x0800219c                TIM3_IRQHandler
-                0x0800219c                RCC_IRQHandler
-                0x0800219c                TIM1_TRG_COM_IRQHandler
-                0x0800219c                DMA1_Channel1_IRQHandler
-                0x0800219c                Default_Handler
-                0x0800219c                EXTI15_10_IRQHandler
-                0x0800219c                EXTI9_5_IRQHandler
-                0x0800219c                SPI2_IRQHandler
-                0x0800219c                DMA1_Channel5_IRQHandler
-                0x0800219c                EXTI4_IRQHandler
-                0x0800219c                USB_LP_CAN1_RX0_IRQHandler
-                0x0800219c                USB_HP_CAN1_TX_IRQHandler
-                0x0800219c                DMA1_Channel3_IRQHandler
-                0x0800219c                TIM1_UP_IRQHandler
-                0x0800219c                WWDG_IRQHandler
-                0x0800219c                TIM2_IRQHandler
-                0x0800219c                TIM1_BRK_IRQHandler
-                0x0800219c                EXTI1_IRQHandler
-                0x0800219c                USART2_IRQHandler
-                0x0800219c                I2C2_ER_IRQHandler
-                0x0800219c                DMA1_Channel2_IRQHandler
-                0x0800219c                CAN1_SCE_IRQHandler
-                0x0800219c                FLASH_IRQHandler
-                0x0800219c                USART1_IRQHandler
-                0x0800219c                I2C1_ER_IRQHandler
-                0x0800219c                USBWakeUp_IRQHandler
- *fill*         0x0800219e        0x2 
- .text.vTask1   0x080021a0       0x28 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                0x080021a0                vTask1
- .text.vTask2   0x080021c8       0x28 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                0x080021c8                vTask2
+                0x08002220        0x2 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+                0x08002220                RTC_Alarm_IRQHandler
+                0x08002220                EXTI2_IRQHandler
+                0x08002220                TIM1_CC_IRQHandler
+                0x08002220                PVD_IRQHandler
+                0x08002220                EXTI3_IRQHandler
+                0x08002220                EXTI0_IRQHandler
+                0x08002220                I2C2_EV_IRQHandler
+                0x08002220                ADC1_2_IRQHandler
+                0x08002220                SPI1_IRQHandler
+                0x08002220                TAMPER_IRQHandler
+                0x08002220                DMA1_Channel4_IRQHandler
+                0x08002220                USART3_IRQHandler
+                0x08002220                RTC_IRQHandler
+                0x08002220                DMA1_Channel7_IRQHandler
+                0x08002220                CAN1_RX1_IRQHandler
+                0x08002220                TIM4_IRQHandler
+                0x08002220                I2C1_EV_IRQHandler
+                0x08002220                DMA1_Channel6_IRQHandler
+                0x08002220                TIM3_IRQHandler
+                0x08002220                RCC_IRQHandler
+                0x08002220                TIM1_TRG_COM_IRQHandler
+                0x08002220                DMA1_Channel1_IRQHandler
+                0x08002220                Default_Handler
+                0x08002220                EXTI15_10_IRQHandler
+                0x08002220                EXTI9_5_IRQHandler
+                0x08002220                SPI2_IRQHandler
+                0x08002220                DMA1_Channel5_IRQHandler
+                0x08002220                EXTI4_IRQHandler
+                0x08002220                USB_LP_CAN1_RX0_IRQHandler
+                0x08002220                USB_HP_CAN1_TX_IRQHandler
+                0x08002220                DMA1_Channel3_IRQHandler
+                0x08002220                TIM1_UP_IRQHandler
+                0x08002220                WWDG_IRQHandler
+                0x08002220                TIM2_IRQHandler
+                0x08002220                TIM1_BRK_IRQHandler
+                0x08002220                EXTI1_IRQHandler
+                0x08002220                USART2_IRQHandler
+                0x08002220                I2C2_ER_IRQHandler
+                0x08002220                DMA1_Channel2_IRQHandler
+                0x08002220                CAN1_SCE_IRQHandler
+                0x08002220                FLASH_IRQHandler
+                0x08002220                USART1_IRQHandler
+                0x08002220                I2C1_ER_IRQHandler
+                0x08002220                USBWakeUp_IRQHandler
+ .text.vPWR_Task
+                0x08002222       0x2a CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+                0x08002222                vPWR_Task
  .text.APP_task_start
-                0x080021f0       0x50 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                0x080021f0                APP_task_start
+                0x0800224c       0x30 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+                0x0800224c                APP_task_start
+ .text.PWR_MGMT_Init
+                0x0800227c       0x18 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+                0x0800227c                PWR_MGMT_Init
+ .text.PWR_MGMT_Start
+                0x08002294       0x2c CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+                0x08002294                PWR_MGMT_Start
  .text.__io_putchar
-                0x08002240       0x24 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
-                0x08002240                __io_putchar
+                0x080022c0       0x24 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+                0x080022c0                __io_putchar
  .text.pxPortInitialiseStack
-                0x08002264       0x58 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x08002264                pxPortInitialiseStack
+                0x080022e4       0x58 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x080022e4                pxPortInitialiseStack
  .text.prvTaskExitError
-                0x080022bc       0x32 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- *fill*         0x080022ee        0x2 
+                0x0800233c       0x32 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ *fill*         0x0800236e        0x2 
  .text.SVC_Handler
-                0x080022f0       0x28 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x080022f0                SVC_Handler
+                0x08002370       0x28 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x08002370                SVC_Handler
  .text.prvPortStartFirstTask
-                0x08002318       0x24 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x08002398       0x24 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
  .text.xPortStartScheduler
-                0x0800233c       0x40 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x0800233c                xPortStartScheduler
+                0x080023bc       0x40 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x080023bc                xPortStartScheduler
  .text.vPortEnterCritical
-                0x0800237c       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x0800237c                vPortEnterCritical
+                0x080023fc       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x080023fc                vPortEnterCritical
  .text.vPortExitCritical
-                0x080023b0       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x080023b0                vPortExitCritical
- *fill*         0x080023e4        0xc 
+                0x08002430       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x08002430                vPortExitCritical
+ *fill*         0x08002464        0xc 
  .text.PendSV_Handler
-                0x080023f0       0x48 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x080023f0                PendSV_Handler
+                0x08002470       0x48 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x08002470                PendSV_Handler
  .text.xPortSysTickHandler
-                0x08002438       0x44 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x08002438                xPortSysTickHandler
+                0x080024b8       0x44 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x080024b8                xPortSysTickHandler
  .text.vPortSetupTimerInterrupt
-                0x0800247c       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
-                0x0800247c                vPortSetupTimerInterrupt
+                0x080024fc       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x080024fc                vPortSetupTimerInterrupt
  .text.pvPortMalloc
-                0x080024b0      0x134 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
-                0x080024b0                pvPortMalloc
+                0x08002530      0x134 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x08002530                pvPortMalloc
  .text.vPortFree
-                0x080025e4       0x74 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
-                0x080025e4                vPortFree
+                0x08002664       0x74 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x08002664                vPortFree
  .text.prvHeapInit
-                0x08002658       0xb8 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x080026d8       0xb8 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .text.prvInsertBlockIntoFreeList
-                0x08002710       0xb0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x08002790       0xb0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .text.vListInitialise
-                0x080027c0       0x3e CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
-                0x080027c0                vListInitialise
+                0x08002840       0x3e CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x08002840                vListInitialise
  .text.vListInitialiseItem
-                0x080027fe       0x18 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
-                0x080027fe                vListInitialiseItem
+                0x0800287e       0x18 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x0800287e                vListInitialiseItem
  .text.vListInsert
-                0x08002816       0x70 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
-                0x08002816                vListInsert
+                0x08002896       0x70 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x08002896                vListInsert
  .text.uxListRemove
-                0x08002886       0x52 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
-                0x08002886                uxListRemove
+                0x08002906       0x52 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x08002906                uxListRemove
  .text.xTaskCreate
-                0x080028d8       0x8c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x080028d8                xTaskCreate
+                0x08002958       0x8c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002958                xTaskCreate
  .text.prvInitialiseNewTask
-                0x08002964       0xd0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x080029e4       0xd0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.prvAddNewTaskToReadyList
-                0x08002a34      0x124 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002ab4      0x124 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .text.xTaskDelayUntil
+                0x08002bd8       0xa4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002bd8                xTaskDelayUntil
  .text.vTaskDelay
-                0x08002b58       0x48 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08002b58                vTaskDelay
+                0x08002c7c       0x48 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002c7c                vTaskDelay
  .text.vTaskStartScheduler
-                0x08002ba0       0x78 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08002ba0                vTaskStartScheduler
+                0x08002cc4       0x78 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002cc4                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x08002c18       0x1c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08002c18                vTaskSuspendAll
+                0x08002d3c       0x1c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002d3c                vTaskSuspendAll
  .text.xTaskResumeAll
-                0x08002c34      0x1d8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08002c34                xTaskResumeAll
+                0x08002d58      0x1d8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002d58                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x08002f30       0x1c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002f30                xTaskGetTickCount
  .text.xTaskIncrementTick
-                0x08002e0c      0x20c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08002e0c                xTaskIncrementTick
+                0x08002f4c      0x20c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08002f4c                xTaskIncrementTick
  .text.vTaskSwitchContext
-                0x08003018       0x8c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08003018                vTaskSwitchContext
+                0x08003158       0x8c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08003158                vTaskSwitchContext
  .text.prvIdleTask
-                0x080030a4       0x30 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x080031e4       0x30 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.prvInitialiseTaskLists
-                0x080030d4       0x80 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08003214       0x80 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.prvCheckTasksWaitingTermination
-                0x08003154       0x5c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08003294       0x5c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.prvDeleteTCB
-                0x080031b0       0x20 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x080032f0       0x20 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.prvResetNextTaskUnblockTime
-                0x080031d0       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08003310       0x34 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .text.xTaskGetSchedulerState
-                0x08003204       0x3c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08003204                xTaskGetSchedulerState
+                0x08003344       0x3c CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08003344                xTaskGetSchedulerState
  .text.prvAddCurrentTaskToDelayedList
-                0x08003240      0x100 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .text.__cvt    0x08003340       0xc2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
-                0x08003340                __cvt
+                0x08003380      0x100 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .text.__cvt    0x08003480       0xc2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+                0x08003480                __cvt
  .text.__exponent
-                0x08003402       0x78 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
-                0x08003402                __exponent
- *fill*         0x0800347a        0x2 
+                0x08003542       0x78 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+                0x08003542                __exponent
+ *fill*         0x080035ba        0x2 
  .text._printf_float
-                0x0800347c      0x454 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
-                0x0800347c                _printf_float
+                0x080035bc      0x454 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+                0x080035bc                _printf_float
  .text._printf_common
-                0x080038d0       0xea D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x080038d0                _printf_common
- *fill*         0x080039ba        0x2 
+                0x08003a10       0xea D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08003a10                _printf_common
+ *fill*         0x08003afa        0x2 
  .text._printf_i
-                0x080039bc      0x254 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x080039bc                _printf_i
- .text.std      0x08003c10       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003afc      0x254 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08003afc                _printf_i
+ .text.std      0x08003d50       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x08003c7c       0x18 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003dbc       0x18 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x08003c94       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003dd4       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x08003cd4       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003e14       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .text.__sfp_lock_acquire
-                0x08003d14        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x08003d14                __sfp_lock_acquire
+                0x08003e54        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003e54                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08003d20        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x08003d20                __sfp_lock_release
- .text.__sinit  0x08003d2c       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x08003d2c                __sinit
+                0x08003e60        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003e60                __sfp_lock_release
+ .text.__sinit  0x08003e6c       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x08003e6c                __sinit
  .text._fwalk_sglue
-                0x08003d5c       0x3a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
-                0x08003d5c                _fwalk_sglue
- *fill*         0x08003d96        0x2 
- .text.printf   0x08003d98       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
-                0x08003d98                iprintf
-                0x08003d98                printf
- .text.__sread  0x08003dbc       0x22 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
-                0x08003dbc                __sread
+                0x08003e9c       0x3a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
+                0x08003e9c                _fwalk_sglue
+ *fill*         0x08003ed6        0x2 
+ .text.printf   0x08003ed8       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
+                0x08003ed8                iprintf
+                0x08003ed8                printf
+ .text.__sread  0x08003efc       0x22 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+                0x08003efc                __sread
  .text.__swrite
-                0x08003dde       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
-                0x08003dde                __swrite
- .text.__sseek  0x08003e16       0x26 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
-                0x08003e16                __sseek
+                0x08003f1e       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+                0x08003f1e                __swrite
+ .text.__sseek  0x08003f56       0x26 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+                0x08003f56                __sseek
  .text.__sclose
-                0x08003e3c        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
-                0x08003e3c                __sclose
- .text.memset   0x08003e44       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
-                0x08003e44                memset
+                0x08003f7c        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+                0x08003f7c                __sclose
+ .text.memset   0x08003f84       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x08003f84                memset
  .text._localeconv_r
-                0x08003e54        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
-                0x08003e54                _localeconv_r
+                0x08003f94        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
+                0x08003f94                _localeconv_r
  .text._close_r
-                0x08003e5c       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
-                0x08003e5c                _close_r
+                0x08003f9c       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
+                0x08003f9c                _close_r
  .text._lseek_r
-                0x08003e7c       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
-                0x08003e7c                _lseek_r
- .text._read_r  0x08003ea0       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
-                0x08003ea0                _read_r
+                0x08003fbc       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
+                0x08003fbc                _lseek_r
+ .text._read_r  0x08003fe0       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
+                0x08003fe0                _read_r
  .text._write_r
-                0x08003ec4       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
-                0x08003ec4                _write_r
- .text.__errno  0x08003ee8        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
-                0x08003ee8                __errno
+                0x08004004       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
+                0x08004004                _write_r
+ .text.__errno  0x08004028        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+                0x08004028                __errno
  .text.__libc_init_array
-                0x08003ef4       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
-                0x08003ef4                __libc_init_array
+                0x08004034       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x08004034                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x08003f3c        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x08003f3c                __retarget_lock_init_recursive
+                0x0800407c        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x0800407c                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08003f3e        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x08003f3e                __retarget_lock_acquire_recursive
+                0x0800407e        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x0800407e                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08003f40        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x08003f40                __retarget_lock_release_recursive
- .text.memchr   0x08003f42       0x1c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
-                0x08003f42                memchr
- .text.memcpy   0x08003f5e       0x1c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
-                0x08003f5e                memcpy
- .text.quorem   0x08003f7a      0x110 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
- *fill*         0x0800408a        0x6 
- .text._dtoa_r  0x08004090      0xbbc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
-                0x08004090                _dtoa_r
- .text._free_r  0x08004c4c       0x94 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
-                0x08004c4c                _free_r
- .text.malloc   0x08004ce0       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
-                0x08004ce0                malloc
+                0x08004080        0x2 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x08004080                __retarget_lock_release_recursive
+ .text.memchr   0x08004082       0x1c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+                0x08004082                memchr
+ .text.memcpy   0x0800409e       0x1c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x0800409e                memcpy
+ .text.quorem   0x080040ba      0x110 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
+ *fill*         0x080041ca        0x6 
+ .text._dtoa_r  0x080041d0      0xbbc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
+                0x080041d0                _dtoa_r
+ .text._free_r  0x08004d8c       0x94 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+                0x08004d8c                _free_r
+ .text.malloc   0x08004e20       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
+                0x08004e20                malloc
  .text.sbrk_aligned
-                0x08004cf0       0x44 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x08004e30       0x44 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x08004d34       0xf8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x08004d34                _malloc_r
+                0x08004e74       0xf8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x08004e74                _malloc_r
  .text.__malloc_lock
-                0x08004e2c        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
-                0x08004e2c                __malloc_lock
+                0x08004f6c        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08004f6c                __malloc_lock
  .text.__malloc_unlock
-                0x08004e38        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
-                0x08004e38                __malloc_unlock
- .text._Balloc  0x08004e44       0x7c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08004e44                _Balloc
- .text._Bfree   0x08004ec0       0x44 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08004ec0                _Bfree
+                0x08004f78        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08004f78                __malloc_unlock
+ .text._Balloc  0x08004f84       0x7c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08004f84                _Balloc
+ .text._Bfree   0x08005000       0x44 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005000                _Bfree
  .text.__multadd
-                0x08004f04       0x8c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08004f04                __multadd
+                0x08005044       0x8c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005044                __multadd
  .text.__hi0bits
-                0x08004f90       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08004f90                __hi0bits
+                0x080050d0       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x080050d0                __hi0bits
  .text.__lo0bits
-                0x08004fcc       0x5c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08004fcc                __lo0bits
- .text.__i2b    0x08005028       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005028                __i2b
+                0x0800510c       0x5c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x0800510c                __lo0bits
+ .text.__i2b    0x08005168       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005168                __i2b
  .text.__multiply
-                0x08005054      0x16c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005054                __multiply
+                0x08005194      0x16c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005194                __multiply
  .text.__pow5mult
-                0x080051c0       0xb8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x080051c0                __pow5mult
+                0x08005300       0xb8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005300                __pow5mult
  .text.__lshift
-                0x08005278       0xe4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005278                __lshift
- .text.__mcmp   0x0800535c       0x36 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x0800535c                __mcmp
- *fill*         0x08005392        0x2 
- .text.__mdiff  0x08005394      0x130 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005394                __mdiff
- .text.__d2b    0x080054c4       0xb0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x080054c4                __d2b
+                0x080053b8       0xe4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x080053b8                __lshift
+ .text.__mcmp   0x0800549c       0x36 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x0800549c                __mcmp
+ *fill*         0x080054d2        0x2 
+ .text.__mdiff  0x080054d4      0x130 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x080054d4                __mdiff
+ .text.__d2b    0x08005604       0xb0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08005604                __d2b
  .text.__sfputc_r
-                0x08005574       0x2a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x080056b4       0x2a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0800559e       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
-                0x0800559e                __sfputs_r
- *fill*         0x080055c2        0x2 
+                0x080056de       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x080056de                __sfputs_r
+ *fill*         0x08005702        0x2 
  .text._vfprintf_r
-                0x080055c4      0x228 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
-                0x080055c4                _vfprintf_r
-                0x080055c4                _vfiprintf_r
+                0x08005704      0x228 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x08005704                _vfprintf_r
+                0x08005704                _vfiprintf_r
  .text.__sflush_r
-                0x080057ec       0xf8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
-                0x080057ec                __sflush_r
+                0x0800592c       0xf8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
+                0x0800592c                __sflush_r
  .text._fflush_r
-                0x080058e4       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
-                0x080058e4                _fflush_r
+                0x08005a24       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
+                0x08005a24                _fflush_r
  .text.__swbuf_r
-                0x08005934       0x7a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
-                0x08005934                __swbuf_r
- *fill*         0x080059ae        0x2 
+                0x08005a74       0x7a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
+                0x08005a74                __swbuf_r
+ *fill*         0x08005aee        0x2 
  .text.__swsetup_r
-                0x080059b0       0xa8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
-                0x080059b0                __swsetup_r
- .text._sbrk_r  0x08005a58       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
-                0x08005a58                _sbrk_r
+                0x08005af0       0xa8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
+                0x08005af0                __swsetup_r
+ .text._sbrk_r  0x08005b98       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                0x08005b98                _sbrk_r
  .text.__assert_func
-                0x08005a78       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
-                0x08005a78                __assert_func
+                0x08005bb8       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
+                0x08005bb8                __assert_func
  .text._calloc_r
-                0x08005ab4       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
-                0x08005ab4                _calloc_r
+                0x08005bf4       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
+                0x08005bf4                _calloc_r
  .text.__ascii_mbtowc
-                0x08005adc       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
-                0x08005adc                __ascii_mbtowc
+                0x08005c1c       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
+                0x08005c1c                __ascii_mbtowc
  .text.__ascii_wctomb
-                0x08005b00       0x1a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
-                0x08005b00                __ascii_wctomb
- *fill*         0x08005b1a        0x2 
- .text.fprintf  0x08005b1c       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
-                0x08005b1c                fiprintf
-                0x08005b1c                fprintf
+                0x08005c40       0x1a D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
+                0x08005c40                __ascii_wctomb
+ *fill*         0x08005c5a        0x2 
+ .text.fprintf  0x08005c5c       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
+                0x08005c5c                fiprintf
+                0x08005c5c                fprintf
  .text.__swhatbuf_r
-                0x08005b40       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
-                0x08005b40                __swhatbuf_r
+                0x08005c80       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
+                0x08005c80                __swhatbuf_r
  .text.__smakebuf_r
-                0x08005b88       0x72 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
-                0x08005b88                __smakebuf_r
- *fill*         0x08005bfa        0x2 
+                0x08005cc8       0x72 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
+                0x08005cc8                __smakebuf_r
+ *fill*         0x08005d3a        0x2 
  .text._fstat_r
-                0x08005bfc       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
-                0x08005bfc                _fstat_r
+                0x08005d3c       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
+                0x08005d3c                _fstat_r
  .text._isatty_r
-                0x08005c20       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
-                0x08005c20                _isatty_r
- .text.abort    0x08005c40        0xe D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
-                0x08005c40                abort
+                0x08005d60       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
+                0x08005d60                _isatty_r
+ .text.abort    0x08005d80        0xe D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
+                0x08005d80                abort
  .text._raise_r
-                0x08005c4e       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
-                0x08005c4e                _raise_r
- *fill*         0x08005c9e        0x2 
- .text.raise    0x08005ca0       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
-                0x08005ca0                raise
- .text._kill_r  0x08005cb0       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
-                0x08005cb0                _kill_r
+                0x08005d8e       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
+                0x08005d8e                _raise_r
+ *fill*         0x08005dde        0x2 
+ .text.raise    0x08005de0       0x10 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
+                0x08005de0                raise
+ .text._kill_r  0x08005df0       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
+                0x08005df0                _kill_r
  .text._getpid_r
-                0x08005cd4        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
-                0x08005cd4                _getpid_r
+                0x08005e14        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
+                0x08005e14                _getpid_r
  *(.glue_7)
- .glue_7        0x08005cd8        0x0 linker stubs
+ .glue_7        0x08005e18        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08005cd8        0x0 linker stubs
+ .glue_7t       0x08005e18        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08005cd8        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08005e18        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08005cd8        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
-                0x08005cd8                _init
- .init          0x08005cdc        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08005e18        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
+                0x08005e18                _init
+ .init          0x08005e1c        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08005ce4        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
-                0x08005ce4                _fini
- .fini          0x08005ce8        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
-                0x08005cf0                        . = ALIGN (0x4)
-                0x08005cf0                        _etext = .
+ .fini          0x08005e24        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
+                0x08005e24                _fini
+ .fini          0x08005e28        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+                0x08005e30                        . = ALIGN (0x4)
+                0x08005e30                        _etext = .
 
-.vfp11_veneer   0x08005cf0        0x0
- .vfp11_veneer  0x08005cf0        0x0 linker stubs
+.vfp11_veneer   0x08005e30        0x0
+ .vfp11_veneer  0x08005e30        0x0 linker stubs
 
-.v4_bx          0x08005cf0        0x0
- .v4_bx         0x08005cf0        0x0 linker stubs
+.v4_bx          0x08005e30        0x0
+ .v4_bx         0x08005e30        0x0 linker stubs
 
-.iplt           0x08005cf0        0x0
- .iplt          0x08005cf0        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08005e30        0x0
+ .iplt          0x08005e30        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08005cf0      0x49c
-                0x08005cf0                        . = ALIGN (0x4)
+.rodata         0x08005e30      0x40c
+                0x08005e30                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08005cf0       0x4e CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- *fill*         0x08005d3e        0x2 
- .rodata        0x08005d40       0x9a CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- *fill*         0x08005dda        0x2 
- .rodata        0x08005ddc        0x5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .rodata        0x08005e30       0x4e CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ *fill*         0x08005e7e        0x2 
+ .rodata        0x08005e80        0x9 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ *fill*         0x08005e89        0x3 
+ .rodata        0x08005e8c        0x5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  *(.rodata*)
- *fill*         0x08005de1        0x3 
+ *fill*         0x08005e91        0x3 
  .rodata.AHBPrescTable
-                0x08005de4       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x08005de4                AHBPrescTable
+                0x08005e94       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x08005e94                AHBPrescTable
  .rodata.APBPrescTable
-                0x08005df4        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x08005df4                APBPrescTable
+                0x08005ea4        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x08005ea4                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x08005dfc       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08005eac       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08005e0c        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08005e0e        0x2 
+                0x08005ebc        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08005ebe        0x2 
  .rodata.uxTopUsedPriority
-                0x08005e10        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x08005e10                uxTopUsedPriority
+                0x08005ec0        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x08005ec0                uxTopUsedPriority
  .rodata._printf_float.str1.1
-                0x08005e14      0x177 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+                0x08005ec4      0x177 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x08005f8b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800603b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
                                  0x22 (size before relaxing)
  .rodata._dtoa_r.str1.1
-                0x08005f8b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
+                0x0800603b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
                                  0x92 (size before relaxing)
  .rodata._Balloc.str1.1
-                0x08005f8b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x0800603b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
                                  0x73 (size before relaxing)
  .rodata.__multadd.str1.1
-                0x08005f8b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x0800603b        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
                                  0x11 (size before relaxing)
- *fill*         0x08005f8b        0x1 
- .rodata.p05.0  0x08005f8c        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+ *fill*         0x0800603b        0x1 
+ .rodata.p05.0  0x0800603c        0xc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x08005f98       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005f98                __mprec_bigtens
+                0x08006048       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08006048                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08005fc0       0xc8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
-                0x08005fc0                __mprec_tens
+                0x08006070       0xc8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x08006070                __mprec_tens
  .rodata._vfprintf_r.str1.1
-                0x08006088        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x08006138        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
                                  0x11 (size before relaxing)
  .rodata._setlocale_r.str1.1
-                0x08006088        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
+                0x08006138        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x08006088        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
+                0x08006138        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
                                   0x2 (size before relaxing)
  .rodata.__assert_func.str1.1
-                0x08006088        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
+                0x08006138        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata._ctype_
-                0x08006088      0x101 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-ctype_.o)
-                0x08006088                _ctype_
-                0x0800618c                        . = ALIGN (0x4)
- *fill*         0x08006189        0x3 
+                0x08006138      0x101 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-ctype_.o)
+                0x08006138                _ctype_
+                0x0800623c                        . = ALIGN (0x4)
+ *fill*         0x08006239        0x3 
 
-.ARM.extab      0x0800618c        0x0
-                0x0800618c                        . = ALIGN (0x4)
+.ARM.extab      0x0800623c        0x0
+                0x0800623c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800618c                        . = ALIGN (0x4)
+                0x0800623c                        . = ALIGN (0x4)
 
-.ARM            0x0800618c        0x8
-                0x0800618c                        . = ALIGN (0x4)
-                0x0800618c                        __exidx_start = .
+.ARM            0x0800623c        0x8
+                0x0800623c                        . = ALIGN (0x4)
+                0x0800623c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800618c        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
-                0x08006194                        __exidx_end = .
-                0x08006194                        . = ALIGN (0x4)
+ .ARM.exidx     0x0800623c        0x8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+                0x08006244                        __exidx_end = .
+                0x08006244                        . = ALIGN (0x4)
 
-.preinit_array  0x08006194        0x0
-                0x08006194                        . = ALIGN (0x4)
-                0x08006194                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08006244        0x0
+                0x08006244                        . = ALIGN (0x4)
+                0x08006244                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08006194                        PROVIDE (__preinit_array_end = .)
-                0x08006194                        . = ALIGN (0x4)
+                0x08006244                        PROVIDE (__preinit_array_end = .)
+                0x08006244                        . = ALIGN (0x4)
 
-.init_array     0x08006194        0x4
-                0x08006194                        . = ALIGN (0x4)
-                0x08006194                        PROVIDE (__init_array_start = .)
+.init_array     0x08006244        0x4
+                0x08006244                        . = ALIGN (0x4)
+                0x08006244                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08006194        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x08006198                        PROVIDE (__init_array_end = .)
-                0x08006198                        . = ALIGN (0x4)
+ .init_array    0x08006244        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x08006248                        PROVIDE (__init_array_end = .)
+                0x08006248                        . = ALIGN (0x4)
 
-.fini_array     0x08006198        0x4
-                0x08006198                        . = ALIGN (0x4)
+.fini_array     0x08006248        0x4
+                0x08006248                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08006198        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08006248        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0800619c                        . = ALIGN (0x4)
-                0x0800619c                        _sidata = LOADADDR (.data)
+                0x0800624c                        . = ALIGN (0x4)
+                0x0800624c                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x0800619c        0x0
- .rel.iplt      0x0800619c        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0800624c        0x0
+ .rel.iplt      0x0800624c        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000      0x1d8 load address 0x0800619c
+.data           0x20000000      0x1d8 load address 0x0800624c
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -4668,16 +4779,16 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
                 0x200001d8                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x200001d8        0x0 load address 0x08006374
+                0x200001d8        0x0 load address 0x08006424
  .tm_clone_table
                 0x200001d8        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200001d8        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x200001d8        0x0 load address 0x08006374
+.igot.plt       0x200001d8        0x0 load address 0x08006424
  .igot.plt      0x200001d8        0x0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.tdata          0x200001d8        0x0 load address 0x08006374
+.tdata          0x200001d8        0x0 load address 0x08006424
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200001d8                        . = ALIGN (0x4)
                 0x200001d8                        _edata = .
@@ -4694,7 +4805,7 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x200001d8        0x0 load address 0x08006374
+.tbss           0x200001d8        0x0 load address 0x08006424
                 0x200001d8                        _sbss = .
                 0x200001d8                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -4711,7 +4822,7 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x200001d8     0x32e0 load address 0x08006374
+.bss            0x200001d8     0x32dc load address 0x08006424
  *(.bss)
  *(.bss*)
  .bss.completed.1
@@ -4724,98 +4835,96 @@ LOAD D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1
                 0x200001f8                huart1
  .bss.__sbrk_heap_end
                 0x20000240        0x4 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .bss.xTask1Handle
+ .bss.xPWR_TaskHandle
                 0x20000244        0x4 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                0x20000244                xTask1Handle
- .bss.xTask2Handle
-                0x20000248        0x4 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                0x20000248                xTask2Handle
- .bss.ucHeap    0x2000024c     0x3000 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .bss.xStart    0x2000324c        0x8 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .bss.pxEnd     0x20003254        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x20000244                xPWR_TaskHandle
+ .bss.ucHeap    0x20000248     0x3000 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .bss.xStart    0x20003248        0x8 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .bss.pxEnd     0x20003250        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .bss.xFreeBytesRemaining
-                0x20003258        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x20003254        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .bss.xMinimumEverFreeBytesRemaining
-                0x2000325c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x20003258        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .bss.xNumberOfSuccessfulAllocations
-                0x20003260        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x2000325c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .bss.xNumberOfSuccessfulFrees
-                0x20003264        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x20003260        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .bss.pxCurrentTCB
-                0x20003268        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
-                0x20003268                pxCurrentTCB
+                0x20003264        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003264                pxCurrentTCB
  .bss.pxReadyTasksLists
-                0x2000326c       0x64 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003268       0x64 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xDelayedTaskList1
-                0x200032d0       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x200032cc       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xDelayedTaskList2
-                0x200032e4       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x200032e0       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.pxDelayedTaskList
-                0x200032f8        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x200032f4        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.pxOverflowDelayedTaskList
-                0x200032fc        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x200032f8        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xPendingReadyList
-                0x20003300       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x200032fc       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xTasksWaitingTermination
-                0x20003314       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003310       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.uxDeletedTasksWaitingCleanUp
-                0x20003328        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003324        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xSuspendedTaskList
-                0x2000332c       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003328       0x14 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.uxCurrentNumberOfTasks
-                0x20003340        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x2000333c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xTickCount
-                0x20003344        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003340        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.uxTopReadyPriority
-                0x20003348        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003344        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xSchedulerRunning
-                0x2000334c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003348        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xPendedTicks
-                0x20003350        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x2000334c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xYieldPending
-                0x20003354        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003350        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xNumOfOverflows
-                0x20003358        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003354        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.uxTaskNumber
-                0x2000335c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003358        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xNextTaskUnblockTime
-                0x20003360        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x2000335c        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.xIdleTaskHandle
-                0x20003364        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x20003360        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .bss.uxSchedulerSuspended
-                0x20003368        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .bss.__sf      0x2000336c      0x138 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x2000336c                __sf
+                0x20003364        0x4 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .bss.__sf      0x20003368      0x138 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x20003368                __sf
  .bss.__stdio_exit_handler
-                0x200034a4        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x200034a4                __stdio_exit_handler
- .bss.errno     0x200034a8        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
-                0x200034a8                errno
+                0x200034a0        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x200034a0                __stdio_exit_handler
+ .bss.errno     0x200034a4        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+                0x200034a4                errno
  .bss.__lock___malloc_recursive_mutex
-                0x200034ac        0x1 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x200034ac                __lock___malloc_recursive_mutex
+                0x200034a8        0x1 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x200034a8                __lock___malloc_recursive_mutex
  .bss.__lock___sfp_recursive_mutex
-                0x200034ad        0x1 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x200034ad                __lock___sfp_recursive_mutex
- *fill*         0x200034ae        0x2 
+                0x200034a9        0x1 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x200034a9                __lock___sfp_recursive_mutex
+ *fill*         0x200034aa        0x2 
  .bss.__malloc_sbrk_start
-                0x200034b0        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x200034b0                __malloc_sbrk_start
+                0x200034ac        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200034ac                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x200034b4        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x200034b4                __malloc_free_list
+                0x200034b0        0x4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200034b0                __malloc_free_list
  *(COMMON)
-                0x200034b8                        . = ALIGN (0x4)
-                0x200034b8                        _ebss = .
-                0x200034b8                        __bss_end__ = _ebss
+                0x200034b4                        . = ALIGN (0x4)
+                0x200034b4                        _ebss = .
+                0x200034b4                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
                 [!provide]                        PROVIDE (__bss_start = __tbss_start)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x200034b8      0x600 load address 0x08006374
+                0x200034b4      0x604 load address 0x08006424
                 0x200034b8                        . = ALIGN (0x8)
+ *fill*         0x200034b4        0x4 
                 [!provide]                        PROVIDE (end = .)
                 0x200034b8                        PROVIDE (_end = .)
                 0x200036b8                        . = (. + _Min_Heap_Size)
@@ -4868,117 +4977,119 @@ LOAD linker stubs
  .ARM.attributes
                 0x000002b4       0x2d CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
  .ARM.attributes
-                0x000002e1       0x2d CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+                0x000002e1       0x2d CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
  .ARM.attributes
-                0x0000030e       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x0000030e       0x2d CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .ARM.attributes
-                0x0000033b       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x0000033b       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
  .ARM.attributes
-                0x00000368       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x00000368       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .ARM.attributes
-                0x00000395       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x00000395       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
  .ARM.attributes
-                0x000003c2       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+                0x000003c2       0x2d CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
  .ARM.attributes
-                0x000003ef       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x000003ef       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
  .ARM.attributes
-                0x0000041c       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x0000041c       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000449       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
+                0x00000449       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .ARM.attributes
-                0x00000476       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
+                0x00000476       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
  .ARM.attributes
-                0x000004a3       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+                0x000004a3       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
  .ARM.attributes
-                0x000004d0       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x000004d0       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
  .ARM.attributes
-                0x000004fd       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
+                0x000004fd       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x0000052a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
+                0x0000052a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
  .ARM.attributes
-                0x00000557       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+                0x00000557       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
  .ARM.attributes
-                0x00000584       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x00000584       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
  .ARM.attributes
-                0x000005b1       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
+                0x000005b1       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
  .ARM.attributes
-                0x000005de       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
+                0x000005de       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
  .ARM.attributes
-                0x0000060b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
+                0x0000060b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
  .ARM.attributes
-                0x00000638       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+                0x00000638       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
  .ARM.attributes
-                0x00000665       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x00000665       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
  .ARM.attributes
-                0x00000692       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x00000692       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x000006bf       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+                0x000006bf       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
  .ARM.attributes
-                0x000006ec       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x000006ec       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
  .ARM.attributes
-                0x00000719       0x17 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+                0x00000719       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000730       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
+                0x00000746       0x17 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
  .ARM.attributes
-                0x0000075d       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+                0x0000075d       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
  .ARM.attributes
-                0x0000078a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
+                0x0000078a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
  .ARM.attributes
-                0x000007b7       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x000007b7       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
  .ARM.attributes
-                0x000007e4       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x000007e4       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
  .ARM.attributes
-                0x00000811       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+                0x00000811       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
  .ARM.attributes
-                0x0000083e       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x0000083e       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
  .ARM.attributes
-                0x0000086b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
+                0x0000086b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
  .ARM.attributes
-                0x00000898       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
+                0x00000898       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
  .ARM.attributes
-                0x000008c5       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
+                0x000008c5       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
  .ARM.attributes
-                0x000008f2       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
+                0x000008f2       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
  .ARM.attributes
-                0x0000091f       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                0x0000091f       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
  .ARM.attributes
-                0x0000094c       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
+                0x0000094c       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
  .ARM.attributes
-                0x00000979       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
+                0x00000979       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
  .ARM.attributes
-                0x000009a6       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
+                0x000009a6       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
  .ARM.attributes
-                0x000009d3       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
+                0x000009d3       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
  .ARM.attributes
-                0x00000a00       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-ctype_.o)
+                0x00000a00       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
  .ARM.attributes
-                0x00000a2d       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
+                0x00000a2d       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-ctype_.o)
  .ARM.attributes
-                0x00000a5a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
+                0x00000a5a       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
  .ARM.attributes
-                0x00000a87       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
+                0x00000a87       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
  .ARM.attributes
-                0x00000ab4       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
+                0x00000ab4       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
  .ARM.attributes
-                0x00000ae1       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
+                0x00000ae1       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
  .ARM.attributes
-                0x00000b0e       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
+                0x00000b0e       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
  .ARM.attributes
-                0x00000b3b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
+                0x00000b3b       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
  .ARM.attributes
-                0x00000b68       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x00000b68       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
  .ARM.attributes
-                0x00000b85       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x00000b95       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000ba2       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x00000bb2       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000bbf       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
+                0x00000bcf       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000bdc       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+                0x00000bec       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
  .ARM.attributes
-                0x00000bf9       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
+                0x00000c09       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000c26       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+                0x00000c26       0x2d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000c53       0x1d D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -5009,6 +5120,8 @@ LOAD linker stubs
                                  0x46 (size before relaxing)
  .comment       0x00000045        0x0 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
                                  0x46 (size before relaxing)
+ .comment       0x00000045        0x0 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+                                 0x46 (size before relaxing)
  .comment       0x00000045        0x0 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
                                  0x46 (size before relaxing)
  .comment       0x00000045        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
@@ -5020,7 +5133,7 @@ LOAD linker stubs
  .comment       0x00000045        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
                                  0x46 (size before relaxing)
 
-.debug_info     0x00000000     0x93f3
+.debug_info     0x00000000     0x96e1
  .debug_info    0x00000000      0x222 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_info    0x00000222     0x2eed cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_info    0x0000310f      0x704 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -5028,21 +5141,22 @@ LOAD linker stubs
  .debug_info    0x00003fe8      0x5ab cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_info    0x00004593      0xa87 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_info    0x0000501a      0x2d2 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_info    0x000052ec      0x184 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
- .debug_info    0x00005470      0x798 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
- .debug_info    0x00005c08      0x11b CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00005d23      0x1f1 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00005f14      0x168 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_info    0x0000607c      0x6b4 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00006730       0x30 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
- .debug_info    0x00006760      0x208 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_info    0x00006968      0x5b1 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
- .debug_info    0x00006f19      0x2e7 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- .debug_info    0x00007200      0x49a CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_info    0x0000769a      0x2af CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
- .debug_info    0x00007949     0x1aaa CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_info    0x000052ec      0x2d3 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000055bf      0x798 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_info    0x00005d57      0x11b CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00005e72      0x1f1 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00006063      0x168 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000061cb      0x6b4 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0000687f       0x30 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+ .debug_info    0x000068af      0x1fa CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_info    0x00006aa9      0x1ad CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_info    0x00006c56      0x5b1 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_info    0x00007207      0x2e7 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_info    0x000074ee      0x49a CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_info    0x00007988      0x2af CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_info    0x00007c37     0x1aaa CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
-.debug_abbrev   0x00000000     0x20f8
+.debug_abbrev   0x00000000     0x225b
  .debug_abbrev  0x00000000      0x13f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_abbrev  0x0000013f      0x2f8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_abbrev  0x00000437      0x201 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -5050,21 +5164,22 @@ LOAD linker stubs
  .debug_abbrev  0x000008eb      0x1ca cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_abbrev  0x00000ab5      0x2f8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_abbrev  0x00000dad      0x1aa CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000f57       0xc6 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000101d      0x1e6 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x00001203       0xaa CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x000012ad       0xdb CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00001388       0xbc CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00001444      0x1bc CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00001600       0x24 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
- .debug_abbrev  0x00001624      0x13c CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_abbrev  0x00001760      0x15b CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
- .debug_abbrev  0x000018bb      0x20c CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- .debug_abbrev  0x00001ac7      0x1f3 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_abbrev  0x00001cba       0xf5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
- .debug_abbrev  0x00001daf      0x349 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_abbrev  0x00000f57      0x13f CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00001096      0x1e6 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x0000127c       0xaa CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00001326       0xdb CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00001401       0xbc CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x000014bd      0x1bc CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x00001679       0x24 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+ .debug_abbrev  0x0000169d      0x128 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_abbrev  0x000017c5       0xfe CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_abbrev  0x000018c3      0x15b CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_abbrev  0x00001a1e      0x20c CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_abbrev  0x00001c2a      0x1f3 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_abbrev  0x00001e1d       0xf5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_abbrev  0x00001f12      0x349 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
-.debug_aranges  0x00000000      0x9f0
+.debug_aranges  0x00000000      0xa10
  .debug_aranges
                 0x00000000       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
@@ -5094,20 +5209,22 @@ LOAD linker stubs
  .debug_aranges
                 0x000006b0       0x28 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
  .debug_aranges
-                0x000006d8       0x30 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+                0x000006d8       0x28 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
  .debug_aranges
-                0x00000708       0x20 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+                0x00000700       0x28 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
  .debug_aranges
-                0x00000728       0x70 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x00000728       0x20 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_aranges
-                0x00000798       0x60 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x00000748       0x70 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
  .debug_aranges
-                0x000007f8       0x40 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x000007b8       0x60 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .debug_aranges
-                0x00000838      0x1b8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x00000818       0x40 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_aranges
+                0x00000858      0x1b8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
 .debug_rnglists
-                0x00000000      0x772
+                0x00000000      0x786
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
@@ -5123,33 +5240,35 @@ LOAD linker stubs
  .debug_rnglists
                 0x000003df       0x20 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x000003ff       0x13 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+                0x000003ff       0x14 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x00000412       0x20 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+                0x00000413       0x20 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
  .debug_rnglists
-                0x00000432       0x37 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000433       0x37 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x00000469       0x13 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0000046a       0x13 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x0000047c       0x13 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+                0x0000047d       0x13 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x0000048f       0x79 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+                0x00000490       0x79 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
-                0x00000508       0x19 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+                0x00000509       0x19 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
  .debug_rnglists
-                0x00000521       0x1f CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+                0x00000522       0x19 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
  .debug_rnglists
-                0x00000540       0x13 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+                0x0000053b       0x19 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
  .debug_rnglists
-                0x00000553       0x4f CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+                0x00000554       0x13 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
  .debug_rnglists
-                0x000005a2       0x47 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+                0x00000567       0x4f CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
  .debug_rnglists
-                0x000005e9       0x2b CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+                0x000005b6       0x47 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
  .debug_rnglists
-                0x00000614      0x15e CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+                0x000005fd       0x2b CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_rnglists
+                0x00000628      0x15e CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
-.debug_macro    0x00000000    0x19b12
+.debug_macro    0x00000000    0x19d6c
  .debug_macro   0x00000000      0x18e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x0000018e      0xade cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x00000c6c       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -5191,82 +5310,85 @@ LOAD linker stubs
  .debug_macro   0x000153e4      0x1a0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_macro   0x00015584      0x1f9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_macro   0x0001577d      0x18e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_macro   0x0001590b      0x292 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015b9d       0x7b CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015c18       0x24 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015c3c       0x3c CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015c78       0x34 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015cac       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015cc2       0x3c CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00015cfe      0x364 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016062       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016072       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016088       0x4a CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x000160d2       0x34 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016106       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016116       0x58 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x0001616e      0x1e5 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016353       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x00016369       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x0001637f      0x170 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x000164ef       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_macro   0x000164ff      0x1a2 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
- .debug_macro   0x000166a1      0x1a2 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
- .debug_macro   0x00016843      0x20f CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016a52       0xa6 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016af8      0x15a CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016c52       0xe3 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016d35       0x28 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016d5d       0x1f CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016d7c       0x12 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016d8e      0x581 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x0001730f       0xc3 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x000173d2      0x120 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x000174f2      0x198 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x0001768a      0x103 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x0001778d       0x10 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x0001779d       0x75 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017812       0x94 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000178a6       0x57 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000178fd      0x23c CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017b39      0x265 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017d9e       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017dae       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017dbe       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017dce       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017dde       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017dfa       0x52 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017e4c       0x22 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017e6e       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017e7e       0x52 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017ed0       0xcf CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f9f       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017fbb       0x3d CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017ff8       0x3b CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018033      0x134 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018167       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001817d       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018193       0x29 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000181bc      0x242 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000183fe       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001841a       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001842a      0x18a CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000185b4       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000185ca       0xce CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018698      0x2fb CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_macro   0x00018993       0xa0 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_macro   0x00018a33      0x27a CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
- .debug_macro   0x00018cad      0x2af CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- .debug_macro   0x00018f5c      0x331 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_macro   0x0001928d      0x11c CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_macro   0x000193a9       0x9b CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_macro   0x00019444       0x16 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_macro   0x0001945a       0x56 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_macro   0x000194b0      0x2b5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
- .debug_macro   0x00019765      0x396 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .debug_macro   0x00019afb       0x17 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_macro   0x0001590b      0x297 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015ba2       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015bb2       0x7b CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015c2d       0x24 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015c51       0x3c CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015c8d       0x34 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015cc1       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015cd7       0x3c CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015d13      0x364 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016077       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016087       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001609d       0x4a CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x000160e7       0x34 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001611b       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001612b       0x58 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016183      0x1e5 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016368       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001637e       0x16 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016394      0x170 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016504       0x10 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016514      0x1a7 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x000166bb      0x1a7 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_macro   0x00016862      0x214 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016a76       0xa6 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016b1c      0x15a CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016c76       0xe3 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016d59       0x28 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016d81       0x1f CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016da0       0x12 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016db2      0x581 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00017333       0xc3 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x000173f6      0x120 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00017516      0x19d CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x000176b3      0x103 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000177b6       0x10 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000177c6       0x75 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0001783b       0x94 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000178cf       0x57 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017926      0x23c CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017b62      0x265 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017dc7       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017dd7       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017de7       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017df7       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017e07       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017e23       0x52 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017e75       0x22 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017e97       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017ea7       0x52 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017ef9       0xcf CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017fc8       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017fe4       0x3d CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018021       0x3b CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001805c      0x134 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018190       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000181a6       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000181bc       0x29 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000181e5      0x242 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018427       0x1c CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018443       0x10 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018453      0x18a CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000185dd       0x16 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000185f3       0xce CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000186c1      0x2f9 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_macro   0x000189ba       0xa0 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_macro   0x00018a5a      0x218 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00018c72       0x16 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_macro   0x00018c88      0x27f CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_macro   0x00018f07      0x2af CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_macro   0x000191b6      0x331 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_macro   0x000194e7      0x11c CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_macro   0x00019603       0x9b CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_macro   0x0001969e       0x16 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_macro   0x000196b4       0x56 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_macro   0x0001970a      0x2b5 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_macro   0x000199bf      0x396 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_macro   0x00019d55       0x17 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
-.debug_line     0x00000000     0xb40e
+.debug_line     0x00000000     0xbac9
  .debug_line    0x00000000      0x5cd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_line    0x000005cd     0x231a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_line    0x000028e7      0x801 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -5274,63 +5396,66 @@ LOAD linker stubs
  .debug_line    0x00003d9f      0x837 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_line    0x000045d6      0x9da cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_line    0x00004fb0      0x6f0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_line    0x000056a0      0x54c CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
- .debug_line    0x00005bec      0x5c2 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
- .debug_line    0x000061ae      0x6e5 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00006893      0x54f CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00006de2      0x29e CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00007080      0x5c2 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00007642       0x78 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
- .debug_line    0x000076ba      0x763 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_line    0x00007e1d      0x5f1 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
- .debug_line    0x0000840e      0x7c1 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- .debug_line    0x00008bcf      0x9e0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_line    0x000095af      0x7c7 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
- .debug_line    0x00009d76     0x1698 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_line    0x000056a0      0x55e CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00005bfe      0x5c2 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_line    0x000061c0      0x6e5 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x000068a5      0x54f CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00006df4      0x29e CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00007092      0x5c2 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00007654       0x78 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x000076cc      0x793 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_line    0x00007e5f      0x679 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_line    0x000084d8      0x5f1 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_line    0x00008ac9      0x7c1 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_line    0x0000928a      0x9e0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_line    0x00009c6a      0x7c7 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_line    0x0000a431     0x1698 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
 
-.debug_str      0x00000000    0x8afe2
- .debug_str     0x00000000    0x8afe2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+.debug_str      0x00000000    0x8b059
+ .debug_str     0x00000000    0x8b059 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
                               0x7ca9c (size before relaxing)
- .debug_str     0x0008afe2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x0008b059        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x7d53c (size before relaxing)
- .debug_str     0x0008afe2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x0008b059        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x7d1cf (size before relaxing)
- .debug_str     0x0008afe2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0008b059        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x7cecb (size before relaxing)
- .debug_str     0x0008afe2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0008b059        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x7ce22 (size before relaxing)
- .debug_str     0x0008afe2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0008b059        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x7d11b (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
-                              0x7fe5b (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
-                              0x7ca43 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
-                              0x7cf31 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
-                              0x818fc (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                              0x7ca71 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
+                              0x7fe8f (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+                              0x7cb1d (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+                              0x7cf65 (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+                              0x81930 (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                              0x7caa5 (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
                                0x711b (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
                                0x9421 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/startup_stm32f103xb.s.obj
                                  0x86 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
-                              0x84bdf (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
-                              0x800b1 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+                              0x84bf7 (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+                              0x8192e (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+                              0x800e5 (size before relaxing)
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
                               0x81f85 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
                               0x84b11 (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
                               0x8335e (size before relaxing)
- .debug_str     0x0008afe2        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_str     0x0008b059        0x0 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
                               0x8618b (size before relaxing)
 
-.debug_frame    0x00000000     0x35d8
+.debug_frame    0x00000000     0x35fc
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_frame   0x00000058      0x944 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_frame   0x0000099c      0x334 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -5338,65 +5463,66 @@ LOAD linker stubs
  .debug_frame   0x00000ee8      0x14c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_frame   0x00001034      0x428 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_frame   0x0000145c       0x68 CMakeFiles/Drone_controller.dir/Core/Src/main.c.obj
- .debug_frame   0x000014c4       0x38 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
- .debug_frame   0x000014fc       0x74 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
- .debug_frame   0x00001570       0xc4 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00001634       0x38 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x0000166c       0x34 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x000016a0      0x2ac CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x0000194c       0x74 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
- .debug_frame   0x000019c0       0x34 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
- .debug_frame   0x000019f4      0x160 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
- .debug_frame   0x00001b54      0x150 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
- .debug_frame   0x00001ca4       0xd8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
- .debug_frame   0x00001d7c      0x784 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
- .debug_frame   0x00002500       0x90 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
- .debug_frame   0x00002590       0x60 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x000025f0      0x144 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
- .debug_frame   0x00002734       0x34 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
- .debug_frame   0x00002768       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
- .debug_frame   0x000027d4       0x88 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
- .debug_frame   0x0000285c       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_frame   0x0000287c       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
- .debug_frame   0x000028bc       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
- .debug_frame   0x000028e8       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
- .debug_frame   0x00002920       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
- .debug_frame   0x0000294c       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
- .debug_frame   0x00002978       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
- .debug_frame   0x000029a4       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
- .debug_frame   0x000029c4       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
- .debug_frame   0x000029f0       0xb0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
- .debug_frame   0x00002aa0       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
- .debug_frame   0x00002ac8       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x00002af0       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
- .debug_frame   0x00002b10       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
- .debug_frame   0x00002b7c       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
- .debug_frame   0x00002bb4       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
- .debug_frame   0x00002be4       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
- .debug_frame   0x00002c34       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
- .debug_frame   0x00002c64      0x258 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
- .debug_frame   0x00002ebc       0xa8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x00002f64       0x5c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
- .debug_frame   0x00002fc0       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
- .debug_frame   0x00003000       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
- .debug_frame   0x0000302c       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
- .debug_frame   0x00003074       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x000030a0       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
- .debug_frame   0x000030e0       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
- .debug_frame   0x0000310c       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
- .debug_frame   0x00003154       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
- .debug_frame   0x00003190       0x64 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
- .debug_frame   0x000031f4       0x58 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
- .debug_frame   0x0000324c       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
- .debug_frame   0x00003278       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
- .debug_frame   0x000032a4       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
- .debug_frame   0x000032cc       0xcc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
- .debug_frame   0x00003398       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
- .debug_frame   0x000033d4       0xac D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00003480       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x000034d0       0xc4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00003594       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x000035b4       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x000014c4       0x34 CMakeFiles/Drone_controller.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x000014f8       0x74 CMakeFiles/Drone_controller.dir/Core/Src/usart.c.obj
+ .debug_frame   0x0000156c       0xc4 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00001630       0x38 CMakeFiles/Drone_controller.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00001668       0x34 CMakeFiles/Drone_controller.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x0000169c      0x2ac CMakeFiles/Drone_controller.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00001948       0x54 CMakeFiles/Drone_controller.dir/Application/app_freertos_task.c.obj
+ .debug_frame   0x0000199c       0x48 CMakeFiles/Drone_controller.dir/BSP/Drivers/pwr_mgmt.c.obj
+ .debug_frame   0x000019e4       0x34 CMakeFiles/Drone_controller.dir/common/com_debug/com_debug.c.obj
+ .debug_frame   0x00001a18      0x160 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/cotex_m3/port.c.obj
+ .debug_frame   0x00001b78      0x150 CMakeFiles/Drone_controller.dir/FreeRTOS/portable/memory/heap_4.c.obj
+ .debug_frame   0x00001cc8       0xd8 CMakeFiles/Drone_controller.dir/FreeRTOS/source/list.c.obj
+ .debug_frame   0x00001da0      0x784 CMakeFiles/Drone_controller.dir/FreeRTOS/source/tasks.c.obj
+ .debug_frame   0x00002524       0x90 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_float.o)
+ .debug_frame   0x000025b4       0x60 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00002614      0x144 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00002758       0x34 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x0000278c       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
+ .debug_frame   0x000027f8       0x88 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00002880       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x000028a0       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-localeconv.o)
+ .debug_frame   0x000028e0       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-closer.o)
+ .debug_frame   0x0000290c       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+ .debug_frame   0x00002944       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00002970       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-readr.o)
+ .debug_frame   0x0000299c       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-writer.o)
+ .debug_frame   0x000029c8       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x000029e8       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x00002a14       0xb0 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+ .debug_frame   0x00002ac4       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+ .debug_frame   0x00002aec       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x00002b14       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_frame   0x00002b34       0x6c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-dtoa.o)
+ .debug_frame   0x00002ba0       0x38 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+ .debug_frame   0x00002bd8       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-malloc.o)
+ .debug_frame   0x00002c08       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00002c58       0x30 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00002c88      0x258 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mprec.o)
+ .debug_frame   0x00002ee0       0xa8 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x00002f88       0x5c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00002fe4       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x00003024       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x00003050       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-locale.o)
+ .debug_frame   0x00003098       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x000030c4       0x40 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-assert.o)
+ .debug_frame   0x00003104       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-callocr.o)
+ .debug_frame   0x00003130       0x48 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mbtowc_r.o)
+ .debug_frame   0x00003178       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wctomb_r.o)
+ .debug_frame   0x000031b4       0x64 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fprintf.o)
+ .debug_frame   0x00003218       0x58 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x00003270       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x0000329c       0x2c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x000032c8       0x28 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-abort.o)
+ .debug_frame   0x000032f0       0xcc D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signal.o)
+ .debug_frame   0x000033bc       0x3c D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-signalr.o)
+ .debug_frame   0x000033f8       0xac D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000034a4       0x50 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000034f4       0xc4 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000035b8       0x20 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x000035d8       0x24 D:/Embedded_Toolchain/Arm-GNU-Toolchain/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
 
 .debug_line_str
                 0x00000000      0x223

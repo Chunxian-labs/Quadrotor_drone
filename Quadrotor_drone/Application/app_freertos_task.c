@@ -2,37 +2,29 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "com_debug.h"
-#define TASK1_STACK_SIZE 128
-#define TASK1_PRIORITY 1
-#define TASK2_STACK_SIZE 128
-#define TASK2_PRIORITY 1
-TaskHandle_t xTask1Handle = NULL;
-TaskHandle_t xTask2Handle = NULL;
-void vTask1(void *pvParameters)
+#include "pwr_mgmt.h"
+#define PWR_TASK_STACK_SIZE 128
+#define PWR_TASK_PRIORITY 4
+
+TaskHandle_t xPWRTaskHandle = NULL;
+
+void vPWRTask(void *pvParameters)
 {
+    TickType_t xLastWakeTime = xTaskGetTickCount();
+    PWR_MGMT_Init();
     while (1)
     {
-        debug_printf("Task 1 is running.\r\n");
-        vTaskDelay(pdMS_TO_TICKS(1000)); // Delay for 1000 ms
+        vTaskDelayUntil(&xLastWakeTime, pdMS_TO_TICKS(10000)); // Delay for 10 seconds
+        PWR_MGMT_Start();
     }
 }
-void vTask2(void *pvParameters)
-{
-    while (1)
-    {
-        debug_printf("Task 2 is running.\r\n");
-        vTaskDelay(pdMS_TO_TICKS(900)); // Delay for 900 ms
-    }
-}
+
 void App_task_start(void)
 {
     // Create Task
-    xTaskCreate(vTask1, "Task1", 
-        TASK1_STACK_SIZE, NULL, 
-        TASK1_PRIORITY, &xTask1Handle);
-    xTaskCreate(vTask2, "Task2", 
-        TASK2_STACK_SIZE, NULL, 
-        TASK2_PRIORITY, &xTask2Handle);
+    xTaskCreate(vPWRTask, "PWRTask", 
+        PWR_TASK_STACK_SIZE, NULL, 
+        PWR_TASK_PRIORITY, &xPWRTaskHandle);
     // Start the scheduler
     vTaskStartScheduler();
 }
