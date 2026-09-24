@@ -1,7 +1,7 @@
 #ifndef __COM_DEBUG_H__
 #define __COM_DEBUG_H__
 #include "stdarg.h"
-
+#include "stdio.h"
 #define DEBUG_LOG_ENABLE 1
 #ifdef DEBUG_LOG_ENABLE
 /* All the debug_printf shoule be off while the drone is flying 

@@ -45,11 +45,26 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    Application/app_freertos_task.c
+    common/com_debug/com_debug.c
+    FreeRTOS/portable/cotex_m3/port.c
+    FreeRTOS/portable/memory/heap_4.c
+    FreeRTOS/source/croutine.c
+    FreeRTOS/source/event_groups.c
+    FreeRTOS/source/list.c
+    FreeRTOS/source/queue.c
+    FreeRTOS/source/stream_buffer.c
+    FreeRTOS/source/tasks.c
+    FreeRTOS/source/timers.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    Application
+    common/com_debug
+    FreeRTOS/include
+    FreeRTOS/portable/cotex_m3
 )
 
 # Add project symbols (macros)
@@ -65,4 +80,9 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
 
     # Add user defined libraries
+)
+
+# Add linker options to support printf float output
+target_link_options(${CMAKE_PROJECT_NAME} PRIVATE
+    -u _printf_float
 )

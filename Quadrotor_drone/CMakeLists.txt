@@ -45,6 +45,7 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    Application/app_freertos_task.c
     common/com_debug/com_debug.c
     FreeRTOS/portable/cotex_m3/port.c
     FreeRTOS/portable/memory/heap_4.c
@@ -60,6 +61,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    Application
     common/com_debug
     FreeRTOS/include
     FreeRTOS/portable/cotex_m3

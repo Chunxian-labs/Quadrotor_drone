@@ -25,6 +25,7 @@
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include "com_debug.h"
+#include "app_freertos_task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,7 +91,8 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  
+  //Start the FreeRTOS scheduler
+  App_task_start();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -100,7 +102,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    debug_printf("Hello World!\r\n");
+    debug_printf("Error!\r\n");
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */
