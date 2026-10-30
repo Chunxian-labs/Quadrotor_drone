@@ -1,0 +1,27 @@
+# CMake output and firmware images
+/build/
+/build-*/
+/cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+*.elf
+*.hex
+*.bin
+*.s19
+*.map
+*.o
+*.obj
+*.d
+
+# Local restore points and generated packaging
+/.backups/
+/BASELINE_NO_TESTS.md
+
+# Machine-specific editor/debugger settings
+/.vscode/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"F:/Quadrotor_drone/Drone_controller/build/Debug/cmake_install.cmake",
-		"F:/Quadrotor_drone/Drone_controller/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
